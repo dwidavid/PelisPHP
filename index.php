@@ -28,7 +28,7 @@ const API_URL = "https://whenisthenextmcufilm.com/api";
     </section>
 
     <hgroup>
-        <h2><?= $data["title"]; ?> Se estrena en <?= $data["days_until"]; ?> </h2>
+        <h2><?= $data["title"]; ?> Se estrena en <?= $data["days_until"]; ?> Dias </h2>
         <p> Fecha de estreno <?= $data["release_date"]; ?> </p>
         <p>La siguiente peli es: <?= $data["following_production"]["title"];  ?> </p>
     </hgroup>
